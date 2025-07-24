@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "915671850003",
+    "project_id": "mercado-c2b5d",
+    "storage_bucket": "mercado-c2b5d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915671850003:android:99191e21179bd56a4133e6",
+        "android_client_info": {
+          "package_name": "com.avallon.mercado"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "915671850003-v9qs3vps96p9ag0214ojt4goia0g5jhm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.avallon.mercado",
+            "certificate_hash": "b583e4941bdac093a8fc2a46bb3f31c203d1c365"
+          }
+        },
+        {
+          "client_id": "915671850003-hsiqnc0epjkhiifamdm91tn2vqrpkiu1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ3eqXSw-KnNahPKsvkIEBLo49vOBhfVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "915671850003-hsiqnc0epjkhiifamdm91tn2vqrpkiu1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

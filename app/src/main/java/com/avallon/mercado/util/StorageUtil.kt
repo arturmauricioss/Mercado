@@ -1,4 +1,4 @@
-package com.exemplo.meuapp.util
+package com.avallon.mercado.util
 
 import android.content.Context
 import android.net.Uri

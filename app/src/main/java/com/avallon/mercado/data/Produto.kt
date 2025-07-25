@@ -2,6 +2,7 @@ package com.avallon.mercado.data
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
+import androidx.room.Ignore
 import androidx.room.PrimaryKey
 
 @Entity(tableName = "produtos")
@@ -14,4 +15,7 @@ data class Produto(
     
     @ColumnInfo(name = "imagem_uri")
     var imagemUri: String = ""
-)
+) {
+    @Ignore
+    constructor() : this(0, "", "")
+}

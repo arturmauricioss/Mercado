@@ -11,9 +11,12 @@ interface ProdutoDao {
     @Query("SELECT * FROM produtos ORDER BY id DESC")
     fun getAll(): List<Produto>
 
-    @Insert
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insert(produto: Produto)
 
     @Query("DELETE FROM produtos")
     fun deleteAll()
+
+    @Query("DELETE FROM produtos WHERE id = :produtoId")
+    fun deleteById(produtoId: Int)
 }

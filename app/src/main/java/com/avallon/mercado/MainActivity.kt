@@ -1,4 +1,4 @@
-package com.exemplo.meuapp
+package com.avallon.mercado
 
 import android.content.Intent
 import android.os.Bundle
